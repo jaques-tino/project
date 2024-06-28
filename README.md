@@ -41,9 +41,16 @@
 
 ![alt text](image-3.png)
 
+## 查看当前分支
+`git branch -v`
+
 ## 上传本地仓库到远程仓库
 
 创建快捷方式：`git remote add origin <远程仓库地址>`  
 将本地仓库上传到远程仓库：`git push -u origin master`
 
 -u 参数表示将本地仓库和远程仓库关联起来，以后只需要执行 `git push` 就可以上传到远程仓库了。
+
+## 克隆远程仓库到电脑
+
+`git clone <仓库地址>`
